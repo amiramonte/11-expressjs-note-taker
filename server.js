@@ -1,3 +1,4 @@
+// IMPORTS
 const express = require('express');
 const htmlRoutes = require('./routes/htmlroutes');
 
@@ -7,10 +8,12 @@ const PORT = process.env.port || 3005;
 
 const app = express();
 
+// Middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
+
 
 app.use('/api', apiRoutes)
 
@@ -21,4 +24,3 @@ app.use('/', htmlRoutes)
 app.listen(PORT, () =>
   console.log(`You are now listening to the smooth sounds of http://localhost:${PORT} 🚀`)
 );
-
