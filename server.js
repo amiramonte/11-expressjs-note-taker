@@ -1,5 +1,7 @@
 const express = require('express');
-const path = require('path');
+const htmlRoutes = require('./routes/htmlroutes');
+
+const apiRoutes = require('./routes/apiroutes');
 
 const PORT = process.env.port || 3005;
 
@@ -10,16 +12,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(express.static('public'));
 
+app.use('/api', apiRoutes)
 
-// GET route for homepage
-app.get('/', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/index.html'))
-);
+app.use('/', htmlRoutes)
 
-// GET route for notes page
-app.get('/notes', (req, res) =>
-  res.sendFile(path.join(__dirname, '/public/notes.html'))
-);
 
 
 app.listen(PORT, () =>
