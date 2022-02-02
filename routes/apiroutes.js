@@ -1,6 +1,7 @@
 // IMPORTS
 const router = require('express').Router();
 const fs = require('fs');
+const {uuid} = require('uuidv4');
 
 const db = require('../db/db.json');
 
@@ -15,11 +16,20 @@ router.post('/notes', (req,res) => {
     const {title, text} = req.body;
     const newNote = {
         title,
-        text
+        text,
+        id: uuid()
     };
     db.push(newNote);
     fs.writeFileSync("db/db.json", JSON.stringify(db));
     res.json(db);
+});
+
+
+router.delete('/notes/:id', (req,res) => {
+    const id = req.params.id;
+    const udpatedDb = db.filter(note => note.id!==id);
+    fs.writeFileSync("db/db.json", JSON.stringify(udpatedDb));
+    res.json(udpatedDb);
 });
 
 
