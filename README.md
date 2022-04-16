@@ -1,12 +1,14 @@
 # Note Taker
 
+---
+
 ## Table of contents
 
 - [Description](#description)
-- [Technologies](#technologies)
-- [Deployed Website](#screen-shot)
 - [Functionality](#functionality)
-- [Deployment](#deployment)
+- [Deployed Application](#deployed-application)
+- [Technologies](#technologies)
+- [Installation](#installation)
 - [Credits](#credits)
 
 ---
