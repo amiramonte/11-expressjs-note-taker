@@ -45,6 +45,7 @@ This project was built to help reinforce the following skills:
 - [Bootstrap](https://getbootstrap.com/)
 - [Node.js](https://nodejs.org/)
 - [Express.js](https://expressjs.com/)
+- [uuidv4](https://www.npmjs.com/package/uuidv4)
 
 ---
 
