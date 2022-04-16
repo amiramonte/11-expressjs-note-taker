@@ -51,18 +51,16 @@ This project was built to help reinforce the following skills:
 
 ## Installation
 
-- Copy the repository from Github
-- On your local machine, through your terminal, navigate to the folder you would like to store this repo in
-- git clone the repo into that folder
-- open the repo in your preferred source code editor 
-- In your terminal, type `npm i`
-- Once the appropriate packages have downloaded, initialize the program by navigating to your terminal and typing in `node server.js`
-- Once you receive a response that the server is operational, you can navigate to http://localhost:3005/ on your browser to use the code locally
+1. Clone the repository from Github down to your local machine
+2. Open the repository in your preferred source code editor
+3. Navigate to your command line interface and enter `npm i` to install all dependencies
+4. Once the appropriate packages have installed, initialize the program by entering `node server.js`into your command line interface
+5. Once you receive a response that the server is operational, navigate to `http://localhost:3005/` on your preferred web browser to use the application locally
 
 ---
 
 ## Credits
-  
+
 #### Alex Miramontes - Jr. Web Developer
 
 [Github](https://www.github.com/amiramonte)
