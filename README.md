@@ -25,12 +25,21 @@ This project was built to help reinforce the following skills:
 - File directory Management
 - Heroku Deployment
 
+---
+
+## Functionality
+
+![gif demonstrating functionality of Note Taker App](./images/functionality_demonstration_note_taker.gif)
+
+---
+
+## Deployed Application
+
+- [Note Taker Website](https://intense-journey-68438.herokuapp.com/)
 
 ---
 
 ## Technologies
-
-Project is created with:
 
 - [JavaScript](https://www.javascript.com/)
 - [Bootstrap](https://getbootstrap.com/)
@@ -39,18 +48,7 @@ Project is created with:
 
 ---
 
-## Deployed Website
-
-- [Note Taker Website](https://intense-journey-68438.herokuapp.com/)
-
----
-
-## Functionality
-![gif demonstrating functionality of Note Taker App](./images/functionality_demonstration_note_taker.gif)
-
----
-
-## Deployment
+## Installation
 
 - Copy the repository from Github
 - On your local machine, through your terminal, navigate to the folder you would like to store this repo in
