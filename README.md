@@ -35,7 +35,7 @@ This project was built to help reinforce the following skills:
 
 ## Deployed Application
 
-- [Note Taker Website](https://intense-journey-68438.herokuapp.com/)
+- [Note Taker Application deployed via Heroku](https://intense-journey-68438.herokuapp.com/)
 
 ---
 
