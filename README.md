@@ -15,7 +15,7 @@
 
 ## Description
 
-This project was built to help reinforce the following skills:
+This application was built to understand and reinforce the following skills:
 
 - Node.js
 - Express.js
