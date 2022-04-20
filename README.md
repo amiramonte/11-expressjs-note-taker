@@ -15,15 +15,7 @@
 
 ## Description
 
-This application was built to understand and reinforce the following skills:
-
-- Node.js
-- Express.js
-- Routing
-- Object destructuring
-- Exporting and Importing
-- File directory Management
-- Heroku Deployment
+This application is a simple note taker built using Node.js and Express.js. Express.js was used for routing to commit information input by the application user into an array of objects, where each note is an object in the array. 
 
 ---
 
