@@ -27,6 +27,7 @@ router.post('/notes', (req,res) => {
 
 router.delete('/notes/:id', (req,res) => {
     const id = req.params.id;
+    console.log('id', id);
     const udpatedDb = db.filter(note => note.id!==id);
     fs.writeFileSync("db/db.json", JSON.stringify(udpatedDb));
     res.json(udpatedDb);
